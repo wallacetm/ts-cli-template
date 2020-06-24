@@ -1,0 +1,36 @@
+{
+  "name": "work-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "bin": {
+    "wfn": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "nodemon -e ts --exec npm run exec",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "exec": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacetm/work-functions.git"
+  },
+  "keywords": [],
+  "author": "Wallace Reetz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallacetm/work-functions/issues"
+  },
+  "homepage": "https://github.com/wallacetm/work-functions#readme",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
