@@ -1,10 +1,10 @@
 {
-  "name": "work-functions",
+  "name": "ts-cli-template",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "bin": {
-    "wfn": "./dist/index.js"
+    "tscli": "./dist/index.js"
   },
   "scripts": {
     "build": "rm dist -rf && tsc",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wallacetm/work-functions.git"
+    "url": "git+https://github.com/wallacetm/ts-cli-template.git"
   },
   "keywords": [],
   "author": "Wallace Reetz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wallacetm/work-functions/issues"
+    "url": "https://github.com/wallacetm/ts-cli-template/issues"
   },
-  "homepage": "https://github.com/wallacetm/work-functions#readme",
+  "homepage": "https://github.com/wallacetm/ts-cli-template#readme",
   "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^14.0.14",
@@ -41,7 +41,6 @@
     "dist/*"
   ],
   "dependencies": {
-    "@types/clear": "^0.1.0",
     "@types/figlet": "^1.2.0",
     "chalk": "^4.1.0",
     "commander": "^5.1.0",
